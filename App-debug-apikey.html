@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Committed vs Delivered</title>
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Fri Jan 20 2017 16:36:15 GMT-0700 (MST)";
+    </script>
+    
+    <script type="text/javascript" src="https://rally1.rallydev.com/apps/2.1/sdk-debug.js?apiKey="></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            Rally.loadScripts(["src/javascript/utils/__ts-info-link.js","src/javascript/utils/__ts-logger.js","src/javascript/app.js"],
+	            function() {
+	                Rally.launchApp('portfolio-committed-vs-delivered', {
+	                    name: 'Portfolio Committed vs Delivered'
+	                })
+	            }, true);
+        });
+    </script>
+<link rel="stylesheet" type="text/css" href="src/style/app.css">
+
+</head>
+<body></body>
+</html>
